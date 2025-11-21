@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DesarrollaTuBot | Bots de Trading Reales",
   description:
-    "Automatiza tu operativa en oro con bots reales, probados en cuenta. Sin emociones, sin improvisar, con reglas sofisticadas y gestionadas por expertos.",
+    "Automatiza tu operativa en oro con bots reales, probados en cuenta real. Sin emociones, sin improvisar y con gestión de riesgo profesional.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -29,13 +29,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <head></head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-L4RN7DBR9Q"
           strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-L4RN7DBR9Q"
+          async
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
